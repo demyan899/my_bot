@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: my_bot
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
